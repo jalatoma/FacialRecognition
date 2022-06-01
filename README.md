@@ -7,7 +7,7 @@ In the database, we have access to 100 RGB images (color images) of 100 differen
 
 Since we know the location of each player in the p vector, the easiest way to perform face recognition would be to reorder the columns of the database D such that the vectorized image of the k-th player is at the k-th column of the D matrix. Then, when we have a query image, we can find the column of the D matrix that holds the vectorized image which is most similar to our query image and then identify the player as player-k with name Name-k.
 
-**Worked on this project with a partner in Fall of 2019. The file uploaded is our work.**
+**Worked on this project with a partner in Fall of 2019. The .m file uploaded is our coded work.**
 
 All work was done in MatLab's 2019 version released in September 2019. 
 
